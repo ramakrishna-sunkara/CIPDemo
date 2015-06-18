@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:fitsSystemWindows="true"
+    android:background="@color/window_background">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <LinearLayout
+            style="@style/Widget.CardContent"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/avatar"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/person_img"
+                />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+       >
+
+        <LinearLayout
+            style="@style/Widget.CardContent"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            >
+
+            <TextView
+                android:id="@+id/nameTxt_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="UserName"
+                android:textColor="@android:color/white"
+                android:textStyle="italic"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+
+            <TextView
+                android:id="@+id/client"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="client id"
+                android:textColor="@android:color/white"
+                android:textAppearance="?attr/textAppearanceListItem"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            style="@style/Widget.CardContent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Email"
+
+                android:textAppearance="?attr/textAppearanceListItem"/>
+
+
+            <TextView
+                android:id="@+id/emailTxt_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="client id"
+                android:textAppearance="?attr/textAppearanceListItem"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+     >
+
+        <LinearLayout
+            style="@style/Widget.CardContent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Mobile"
+
+                android:textAppearance="?attr/textAppearanceListItem"/>
+
+
+            <TextView
+                android:id="@+id/mobileTxt_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="client id"
+                android:textAppearance="?attr/textAppearanceListItem"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

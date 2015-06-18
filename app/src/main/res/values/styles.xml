@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>j
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppCompatTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#4285F6</item>
+    </style>
+
+    <style name="AppCompatCaptureTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="ToolbarTitle9" parent="Theme.AppCompat.Light">
+        <item name="actionMenuTextColor">@color/primary_text</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#2196F3</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CIP POC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="any_orientation">1D Any Orientation</string>
+    <string name="scan_from_fragment">Scan from fragment</string>
+    <string name="front_camera">Front Camera</string>
+    <string name="custom_activity">Continuous Scan</string>
+    <string name="toolbar_activity">Activity with Toolbar</string>
+    <string name="scanfile">Scan Document</string>
+    <string name="customer_detail">Customer Detail</string>
+
+    <string name="search">Search</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

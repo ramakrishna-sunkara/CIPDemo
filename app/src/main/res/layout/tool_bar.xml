@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/primary"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="@style/ToolbarTitle"
+    app:popupTheme="@style/ToolbarTitle9"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    android:elevation="4dp"
+
+    android:touchscreenBlocksFocus="false">
+
+    <RelativeLayout
+        android:id="@+id/layoutRelative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/icon_qr_code" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageView2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/scanfile"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:layout_alignWithParentIfMissing="@+id/imageView2"
+            android:id="@+id/textView" />
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:id="@+id/layoutlinearbtn">
+
+
+            <Button
+                android:id="@+id/btnFilter"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="20dp"
+                android:text="FILTER"
+                android:textColor="#ffffff"
+                android:drawableLeft="@drawable/icon_filter"
+                android:gravity="start|center_vertical" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="SORT"
+                android:textColor="#ffffff"
+                android:minHeight="20dp"
+                android:drawableLeft="@drawable/icon_sort"
+                android:gravity="start|center_vertical" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
